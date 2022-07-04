@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule (uploads/.*) authmiddleware.php?path=$1 [L]
+RewriteRule (deleted/.*) authmiddleware.php?path=$1 [L]

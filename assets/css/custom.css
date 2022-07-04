@@ -1,0 +1,199 @@
+.bs-tooltip-top {
+  inset: auto auto 3px 0px !important;
+  /* animation: 0 !important; */
+  transition: none;
+  /* z-index: 99 !important; */
+}
+
+.tooltip-inner {
+  font-size: 11px !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  left: calc(50% - 8px) !important;
+  bottom: -.5px;
+  transform: initial !important;
+  border: 8px solid !important;
+  border-bottom: 0px solid !important;
+  border-left: 7px solid !important;
+  border-right: 7px solid !important;
+  border-color: transparent !important;
+  border-top-color: black !important;
+}
+
+.info-showing {
+  z-index: 10;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 1.5rem;
+}
+
+.info-view {
+  z-index: 10;
+  position: absolute;
+  margin-left: 20px;
+  /* margin-top: 1.5rem; */
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.info-view .info-showing {
+  z-index: initial;
+  position: initial;
+  margin-left: initial;
+  margin-top: initial;
+  /* height: 40px; */
+}
+
+.info-view .filtering {
+  margin-left: 20px;
+  /* z-index: 10;
+  position: absolute;
+  left: 150px;
+  margin-top: 1.5rem; */
+}
+
+.dataTables_wrapper .dataTables_filter input {
+  margin-left: 0;
+}
+
+.table-responsive .row {
+  margin: 0px !important;
+}
+
+table thead th {
+  background: #f9f9f9;
+}
+
+tbody tr.even>[class*="sorting"],
+tbody tr.even>[class*="sorting"] {
+  background-color: #fafafa;
+}
+
+tbody tr.odd>[class*="sorting"],
+tbody tr.odd>[class*="sorting"] {
+  background-color: #eaeaea;
+}
+
+.site-btn.active {
+  background: #0C4F29 !important;
+}
+
+.copy-address-clipboard {
+  transition: all ease-in-out 0.5s;
+}
+
+tr .email_copy, tr .copy-address-clipboard {
+  visibility: hidden;
+}
+
+tr:hover .email_copy, tr:hover .copy-address-clipboard {
+  visibility: visible;
+}
+
+.email_copy:hover {
+  color: #888 !important;
+}
+
+.fa-copy.copy-address-clipboard:hover {
+  color: #888 !important;
+}
+
+a.custom {
+  color: #333;
+}
+
+a.custom:hover {
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+}
+
+.track_link {
+  color: #C99A45 !important;
+}
+
+.cert_link {
+  color: #15914E !important;
+  text-decoration: none;
+}
+
+.track_link:hover, .cert_link:hover {
+  text-decoration: none;
+  filter: brightness(80%);
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+
+  /* Remove default */
+  -webkit-appearance: none;
+
+  /* Now your own custom styles */
+  height: 14px;
+  width: 14px;
+  display: block;
+  cursor: pointer;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAn0lEQVR42u3UMQrDMBBEUZ9WfQqDmm22EaTyjRMHAlM5K+Y7lb0wnUZPIKHlnutOa+25Z4D++MRBX98MD1V/trSppLKHqj9TTBWKcoUqffbUcbBBEhTjBOV4ja4l4OIAZThEOV6jHO8ARXD+gPPvKMABinGOrnu6gTNUawrcQKNCAQ7QeTxORzle3+sDfjJpPCqhJh7GixZq4rHcc9l5A9qZ+WeBhgEuAAAAAElFTkSuQmCC);
+  /* setup all the background tweaks for our custom icon */
+  background-repeat: no-repeat;
+
+  /* icon size */
+  background-size: 14px;
+
+}
+
+.c {
+  text-align: center;
+}
+
+.fa-trash {
+  margin-left: 5px;
+  color: #fe3f3f;
+}
+
+.client-area {
+  display: none;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.form-control {
+  line-height: 2em;
+  font-size: 1.5rem;
+}
+
+.fa-times-circle {
+  color: red;
+}
+
+.fa-check-circle {
+  color: green;
+}
+
+select.form-control {
+  height: 38px !important;
+}
+
+.text-right {
+  text-align: right;
+}
+
+#removeUserModal {
+  /* margin-top: 8%; */
+}
+
+.btn {
+  font-size: 1.5rem;
+}
+
+
+#files_list th, #files_list td {
+  text-align: center;
+}

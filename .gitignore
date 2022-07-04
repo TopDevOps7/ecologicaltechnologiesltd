@@ -1,0 +1,7 @@
+vendor
+composer.lock
+utils/temp
+backoffice/files
+backoffice/uploads
+clients/uploads
+clients/deleted
