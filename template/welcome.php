@@ -87,7 +87,7 @@ class Welcome {
                                           style="padding-top:0;padding-right:18px;padding-bottom:9px;padding-left:18px;word-break:break-word;color:#757575;font-family:Helvetica;font-size:16px;line-height:150%;text-align:left">
                                           <h3
                                             style="display:block;margin:0;padding:0;color:#444444;font-family:Helvetica;font-size:22px;font-style:normal;font-weight:bold;line-height:150%;letter-spacing:normal;text-align:left">
-                                            Willkommen bei Green Wave Materials!</h3>
+                                            Willkommen bei Green Wave Gold!</h3>
                                           <p
                                             style="margin:10px 0;padding:0;color:#757575;font-family:Helvetica;font-size:16px;line-height:150%;text-align:left">
                                             Investieren Sie einfach und sicher in nachhaltige und zukunftssichere Technologien.<br>
@@ -103,7 +103,7 @@ class Welcome {
                                           <br>
                                           <hr>
                                           Mit freundlichen Grüßen<br>
-                                          Ihr Green Wave Materials Team
+                                          Ihr Green Wave Gold Team
                                           </p>
                                         </td>
                                       </tr>

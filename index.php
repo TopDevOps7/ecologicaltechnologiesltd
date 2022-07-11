@@ -22,22 +22,20 @@
                 <div class="bdt-prime-slider-wrapper">
                     <div class="bdt-prime-slider-content">
                         <div class="bdt-sub-title">
-                            <h4>traffic & Logistics</h4>
+                            <h4><?= $ln["traffic_lo"]?></h4>
                         </div>
                         <div class="bdt-main-title">
                             <div class="bdt-title-tag">
-                                Road
+                                <?= $ln["Road"]?>
                             </div>
                         </div>
                         <div class="bdt-slider-excerpt">
-                            <p>Sandwich panels from Ecological Technologies are used in the complete bodywork of
-                                commercial vehicles. We use an optimized mix of different panel types to find the best
-                                solution for your application.</p>
+                            <p><?= $ln["Sandwich_section"]?></p>
                         </div>
                         <div class="lernmorefield">
                             <a href="#" class="bdt-ps-dragon-button">
                                 <div class="bdt-ps-button">
-                                    <div class="bdt-ps-button-text">Learn More</div>
+                                    <div class="bdt-ps-button-text"><?= $ln["learn_more"]?></div>
                                     <div class="bdt-ps-button-wrapper">
                                         <div class="bdt-ps-button-arrow"></div>
                                         <div class="bdt-ps-button-border-circle"></div>
@@ -61,23 +59,21 @@
                 <div class="bdt-prime-slider-wrapper">
                     <div class="bdt-prime-slider-content">
                         <div class="bdt-sub-title">
-                            <h4>THIS IS LIGHTNESS
+                            <h4><?= $ln["this_ligthes"]?>
                             </h4>
                         </div>
                         <div class="bdt-main-title">
                             <div class="bdt-title-tag">
-                                Aviation
+                                <?= $ln["aviation"]?>
                             </div>
                         </div>
                         <div class="bdt-slider-excerpt">
-                            <p>We combine a broad range of raw materials to create high quality composite materials. Low
-                                weight means lower operating costs, higher payload, greater speed, reduced wear and
-                                therefore an increase in your efficiency!.</p>
+                            <p><?= $ln["aviation_desc"]?></p>
                         </div>
                         <div class="lernmorefield">
                             <a href="#" class="bdt-ps-dragon-button">
                                 <div class="bdt-ps-button">
-                                    <div class="bdt-ps-button-text">Learn More</div>
+                                    <div class="bdt-ps-button-text"><?= $ln["learn_more"]?></div>
                                     <div class="bdt-ps-button-wrapper">
                                         <div class="bdt-ps-button-arrow"></div>
                                         <div class="bdt-ps-button-border-circle"></div>
@@ -101,22 +97,21 @@
                 <div class="bdt-prime-slider-wrapper">
                     <div class="bdt-prime-slider-content">
                         <div class="bdt-sub-title">
-                            <h4> Universal Components
+                            <h4> <?= $ln["universal_coms"]?>
                             </h4>
                         </div>
                         <div class="bdt-main-title">
                             <div class="bdt-title-tag">
-                                Space
+                                <?= $ln["space"]?>
                             </div>
                         </div>
                         <div class="bdt-slider-excerpt">
-                            <p>Ecological Technologies started with honeycomb core production and has determinedly
-                                evolved into a high-tech composite solutions provider.</p>
+                            <p><?= $ln["space_d"]?></p>
                         </div>
                         <div class="lernmorefield">
                             <a href="#" class="bdt-ps-dragon-button">
                                 <div class="bdt-ps-button">
-                                    <div class="bdt-ps-button-text">Learn More</div>
+                                    <div class="bdt-ps-button-text"><?= $ln["learn_more"]?></div>
                                     <div class="bdt-ps-button-wrapper">
                                         <div class="bdt-ps-button-arrow"></div>
                                         <div class="bdt-ps-button-border-circle"></div>
@@ -140,23 +135,21 @@
                 <div class="bdt-prime-slider-wrapper">
                     <div class="bdt-prime-slider-content">
                         <div class="bdt-sub-title">
-                            <h4> Universal Components
+                            <h4> <?= $ln["universal_coms"]?>
                             </h4>
                         </div>
                         <div class="bdt-main-title">
                             <div class="bdt-title-tag">
-                                Defence
+                                <?= $ln["Defence"]?>
                             </div>
                         </div>
                         <div class="bdt-slider-excerpt">
-                            <p>The company is specialized in the design and production of advanced products, offering a
-                                high degree of vertical integration: from a complex assembly group down to a simple
-                                sheet of honeycomb.</p>
+                            <p><?= $ln["denfence_d"]?></p>
                         </div>
                         <div class="lernmorefield">
                             <a href="#" class="bdt-ps-dragon-button">
                                 <div class="bdt-ps-button">
-                                    <div class="bdt-ps-button-text">Learn More</div>
+                                    <div class="bdt-ps-button-text"><?= $ln["learn_more"]?></div>
                                     <div class="bdt-ps-button-wrapper">
                                         <div class="bdt-ps-button-arrow"></div>
                                         <div class="bdt-ps-button-border-circle"></div>
@@ -180,22 +173,21 @@
                 <div class="bdt-prime-slider-wrapper">
                     <div class="bdt-prime-slider-content">
                         <div class="bdt-sub-title">
-                            <h4> Rail Production
+                            <h4> <?= $ln["rail_pro"]?>
                             </h4>
                         </div>
                         <div class="bdt-main-title">
                             <div class="bdt-title-tag">
-                                Rail
+                                <?= $ln["Rail"]?>
                             </div>
                         </div>
                         <div class="bdt-slider-excerpt">
-                            <p>We are a leading global manufacturer of lightweight products primarily based on honeycomb
-                                core.</p>
+                            <p><?= $ln["rail_dec"]?></p>
                         </div>
                         <div class="lernmorefield">
                             <a href="#" class="bdt-ps-dragon-button">
                                 <div class="bdt-ps-button">
-                                    <div class="bdt-ps-button-text">Learn More</div>
+                                    <div class="bdt-ps-button-text"><?= $ln["learn_more"]?></div>
                                     <div class="bdt-ps-button-wrapper">
                                         <div class="bdt-ps-button-arrow"></div>
                                         <div class="bdt-ps-button-border-circle"></div>
@@ -219,23 +211,22 @@
                 <div class="bdt-prime-slider-wrapper">
                     <div class="bdt-prime-slider-content">
                         <div class="bdt-sub-title">
-                            <h4> Engineering Ideas
+                            <h4><?= $ln["engineering_id"]?>
                             </h4>
                         </div>
                         <div class="bdt-main-title">
                             <div class="bdt-title-tag">
-                                Mechanical<br /> Engineering
+                                <?= $ln["mechanical"]?><br /> <?= $ln["engineering"]?>
                             </div>
                         </div>
                         <div class="bdt-slider-excerpt">
-                            <p> Faster, more precisely, and with less energy consumption. Ecological Technologies will
-                                help you to achieve these goals and ensure material efficiency and cost effectiveness.
+                            <p>
                             </p>
                         </div>
                         <div class="lernmorefield">
                             <a href="#" class="bdt-ps-dragon-button">
                                 <div class="bdt-ps-button">
-                                    <div class="bdt-ps-button-text">Learn More</div>
+                                    <div class="bdt-ps-button-text"><?= $ln["learn_more"]?></div>
                                     <div class="bdt-ps-button-wrapper">
                                         <div class="bdt-ps-button-arrow"></div>
                                         <div class="bdt-ps-button-border-circle"></div>
@@ -259,23 +250,22 @@
                 <div class="bdt-prime-slider-wrapper">
                     <div class="bdt-prime-slider-content">
                         <div class="bdt-sub-title">
-                            <h4> Floating Components
+                            <h4> <?= $ln["floating_components"]?>
                             </h4>
                         </div>
                         <div class="bdt-main-title">
                             <div class="bdt-title-tag">
-                                Ship / Yacht Building
+                                <?= $ln["ship_yacht"]?>
                             </div>
                         </div>
                         <div class="bdt-slider-excerpt">
-                            <p> Ecological Technologies panels can be used for interior design as well as for structural
-                                applications in ship and yacht building.
+                            <p> <?= $ln["ship_dec"]?>
                             </p>
                         </div>
                         <div class="lernmorefield">
                             <a href="#" class="bdt-ps-dragon-button">
                                 <div class="bdt-ps-button">
-                                    <div class="bdt-ps-button-text">Learn More</div>
+                                    <div class="bdt-ps-button-text"><?= $ln["learn_more"]?></div>
                                     <div class="bdt-ps-button-wrapper">
                                         <div class="bdt-ps-button-arrow"></div>
                                         <div class="bdt-ps-button-border-circle"></div>
@@ -299,23 +289,21 @@
                 <div class="bdt-prime-slider-wrapper">
                     <div class="bdt-prime-slider-content">
                         <div class="bdt-sub-title">
-                            <h4> Universal Components
+                            <h4> <?= $ln["universal_coms"]?>
                             </h4>
                         </div>
                         <div class="bdt-main-title">
                             <div class="bdt-title-tag">
-                                Trade &<br /> Processing
+                                <?= $ln["trade_1"]?><br /> <?= $ln["processing"]?>
                             </div>
                         </div>
                         <div class="bdt-slider-excerpt">
-                            <p>Ecological Technologies started with honeycomb core production and has determinedly
-                                evolved into a high-tech composite solutions provider.
-                            </p>
+                            <p><?= $ln["trade_dec"]?> </p>
                         </div>
                         <div class="lernmorefield">
                             <a href="#" class="bdt-ps-dragon-button">
                                 <div class="bdt-ps-button">
-                                    <div class="bdt-ps-button-text">Learn More</div>
+                                    <div class="bdt-ps-button-text"><?= $ln["learn_more"]?></div>
                                     <div class="bdt-ps-button-wrapper">
                                         <div class="bdt-ps-button-arrow"></div>
                                         <div class="bdt-ps-button-border-circle"></div>
@@ -339,23 +327,22 @@
                 <div class="bdt-prime-slider-wrapper">
                     <div class="bdt-prime-slider-content">
                         <div class="bdt-sub-title">
-                            <h4> Building the Future
+                            <h4> <?= $ln["building_fu"]?>
                             </h4>
                         </div>
                         <div class="bdt-main-title">
                             <div class="bdt-title-tag">
-                                Architecture
+                                <?= $ln["architecture"]?>
                             </div>
                         </div>
                         <div class="bdt-slider-excerpt">
-                            <p>Our products are ideally suited for use in interior décor due to their excellent
-                                mechanical properties and diversity of possible application.
+                            <p><?= $ln["architecture_dec"]?>
                             </p>
                         </div>
                         <div class="lernmorefield">
                             <a href="#" class="bdt-ps-dragon-button">
                                 <div class="bdt-ps-button">
-                                    <div class="bdt-ps-button-text">Learn More</div>
+                                    <div class="bdt-ps-button-text"><?= $ln["learn_more"]?></div>
                                     <div class="bdt-ps-button-wrapper">
                                         <div class="bdt-ps-button-arrow"></div>
                                         <div class="bdt-ps-button-border-circle"></div>
@@ -408,7 +395,7 @@
                                 <div class="elementor-element elementor-widget elementor-widget-text-editor">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-text-editor elementor-clearfix">
-                                            <p>Road</p>
+                                            <p><?= $ln["Road"]?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -431,7 +418,7 @@
                                 <div class="elementor-element elementor-widget elementor-widget-text-editor">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-text-editor elementor-clearfix">
-                                            <p>AVIATION</p>
+                                            <p><?= $ln["aviation"]?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -454,7 +441,7 @@
                                 <div class="elementor-element elementor-widget elementor-widget-text-editor">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-text-editor elementor-clearfix">
-                                            <p>SPACE</p>
+                                            <p><?= $ln["space"]?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -477,7 +464,7 @@
                                 <div class="elementor-element elementor-widget elementor-widget-text-editor">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-text-editor elementor-clearfix">
-                                            <p>DEFENCE</p>
+                                            <p><?= $ln["Defence"]?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -500,7 +487,7 @@
                                 <div class="elementor-element elementor-widget elementor-widget-text-editor">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-text-editor elementor-clearfix">
-                                            <p>TRAIN</p>
+                                            <p><?= $ln["train"]?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -525,7 +512,7 @@
                                 <div class="elementor-element elementor-widget elementor-widget-text-editor">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-text-editor elementor-clearfix">
-                                            <p>MECHANICAL ENGINEERING</p>
+                                            <p><?= $ln["medical_engin"]?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -548,7 +535,7 @@
                                 <div class="elementor-element elementor-widget elementor-widget-text-editor">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-text-editor elementor-clearfix">
-                                            <p>SHIP & YACHT BUILDING</p>
+                                            <p><?= $ln["ship_yacht"]?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -571,7 +558,7 @@
                                 <div class="elementor-element elementor-widget elementor-widget-text-editor">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-text-editor elementor-clearfix">
-                                            <p>TRADE & PROCESSING</p>
+                                            <p><?= $ln["trade_pro"]?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -594,7 +581,7 @@
                                 <div class="elementor-element elementor-widget elementor-widget-text-editor">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-text-editor elementor-clearfix">
-                                            <p>ARCHITECTURE</p>
+                                            <p><?= $ln["architectrue"]?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -617,9 +604,7 @@
                                 <div class="elementor-element elementor-widget elementor-widget-text-editor">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-text-editor elementor-clearfix">
-                                            <p>WATCH THE VIDEO
-
-                                            </p>
+                                            <p><?= $ln["watch_video"]?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -634,8 +619,7 @@
     </div>
     <div class="text-field">
         <div class="container text-center">
-            <p>Ecological Technologies Limited is located in Canada with ISIN # CA27900D1050
-                and Cusip # 27900D105 for the purpose of establishing its recycling business in Canada.</p>
+            <p><?= $ln["cusip_text"]?></p>
         </div>
     </div>
     <div class="section_image">
@@ -649,15 +633,11 @@
                 <div class="col-md-6">
                     <div class="text-left">
                         <h2>
-                            Plastic: A Global
+                            <?= $ln["plastic_gol"]?>
                         </h2>
-                        <p>Crisis</p>
+                        <p><?= $ln["crisis"]?></p>
                         <p>
-                            According a recent study from Science Advance; since the invention of plastic in 1907, 8.3
-                            billion metric tons of virgin (non-recycled) plastic have been produced, generating 6.3
-                            billion metric tons of waste, 79% of which has piled up in landfills while just 9% has been
-                            recycled. A total of 12 billion metric tons are expected to be in landfills or the
-                            environment by 2050 if current production and waste management trends continue.
+                        <p><?= $ln["recent_study"]?></p>
                         </p>
                     </div>
                 </div>
@@ -667,13 +647,10 @@
     <div class="welome_section">
         <div class="container">
             <div class="text-center">
-                <h2>Welcome To <span class="eco"> Ecological</span> Technologies Limited</h2>
-                <p>Ecological Technologies Limited will effectively be solving two problems with one strategy: by
-                    providing economically sustainable materials for use in emergency housing, tackling housing
-                    affordability issues surrounding displaced families and refugees, and taking steps toward the
-                    production of environmentally friendly building materials and, ultimately, creating a cleaner planet
-                    for all.
-                </p>
+                <h2><?= $ln["welcome_to"]?> <span class="eco"> <?= $ln["ecological"]?></span>
+                    <?= $ln["technologies_limited"]?>
+                </h2>
+                <p> <?= $ln["ecologicalal_text"]?></p>
                 <div class="image_field">
                     <img src="assets/images/process.png" alt="process" />
                 </div>
@@ -682,46 +659,34 @@
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#homefield"
-                            type="button" role="tab" aria-controls="home" aria-selected="true">We Reduce</button>
+                            type="button" role="tab" aria-controls="home"
+                            aria-selected="true"><?= $ln["we_reduce"]?></button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
-                            type="button" role="tab" aria-controls="profile" aria-selected="false">We Recycle</button>
+                            type="button" role="tab" aria-controls="profile"
+                            aria-selected="false"><?= $ln["we_recycle"]?></button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
-                            type="button" role="tab" aria-controls="contact" aria-selected="false">We Reduce</button>
+                            type="button" role="tab" aria-controls="contact"
+                            aria-selected="false"><?= $ln["we_reduce"]?></button>
                     </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="homefield" role="tabpanel" aria-labelledby="home-tab">
                         <p class="description_text">
-                            Deforestation issues around the globe have created a highly problematic environment,
-                            contributing the negative effects of global warming. Forests and accompanying ecosystems are
-                            suffering due to extensive and aggressive logging practices. Ecological Technologies Limited
-                            will effectively be solving two problems with one strategy: by providing economically
-                            sustainable solutions to emergency housing and housing affordability issues surrounding
-                            displaced families and taking steps toward the production of environmentally friendly
-                            building
-                            materials and, ultimately, creating a cleaner planet for all.</p>
+                            <?= $ln["deforestation_issue"]?>
+                        </p>
                     </div>
                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                         <p>
-                            Ecological Technologies Limited is priming itself to eradicate the global crisis and move to
-                            alleviate the pressure felt in communities all over the world by implementing its creative
-                            and
-                            unique recycling solution. The Company is proposing a manufacturing plant that focuses on
-                            recycling plastic waste and repurposing it into boards or plastic lumber as a substitute for
-                            traditional wood products and building materials. There are many benefits to using plastic
-                            and
-                            it can be applied almost anywhere wood can, if not in additional applications.</p>
+                            <?= $ln["ecological_limited"]?>
+                        </p>
                     </div>
                     <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                         <p>
-                            The company will provide a strategy by providing economically sustainable materials for use
-                            in emergency housing, tackling housing affordability issues surrounding displaced families
-                            and refugees, and taking steps toward the production of environmentally friendly building
-                            materials and, ultimately, creating a cleaner planet for all.
+                            <?= $ln["company_provide"]?>
                         </p>
                     </div>
                 </div>
@@ -735,11 +700,12 @@
             </div>
             <div class="sectionarea">
                 <div class="grassarea">
-                    <h2>Our Technology
+                    <h2>
+                        <?= $ln["our_technology"]?>
                     </h2>
-                    <p>From trash to modern homes</p>
+                    <p> <?= $ln["from_trash"]?></p>
                     <div class="readmore">
-                        <p>Read More</p>
+                        <p><?= $ln["read_more"]?></p>
                         <i class="fas fa-long-arrow-alt-right"></i>
                     </div>
                 </div>
@@ -750,12 +716,10 @@
         <div class="container">
             <div class="elementor-row">
                 <div class="advantage-text">
-                    <h2>Our <span> Advantages</span></h2>
-                    <p>Ecological Technologies Limited will look toward the production and distribution of its unique
-                        plastic lumber against the traditional wood products.
-                    </p>
+                    <h2><?= $ln["our"]?> <span> <?= $ln["advantages"]?> </span></h2>
+                    <p><?= $ln["advantages_text"]?></p>
                     <div class="viewmore">
-                        <p>View Details</p>
+                        <p><?= $ln["view_detail"]?> </p>
                         <i class="fas fa-long-arrow-alt-right"></i>
                     </div>
                 </div>
@@ -763,17 +727,18 @@
                     <div class="elementdiv">
                         <i class="fas fa-tint"></i>
                         <div class="text-field">
-                            <h2>Water Resistant</h2>
-                            <p>One of the largest advantages of plastic lumber is that it won't rot or absorb water.</p>
+                            <h2><?= $ln["water_resistant"]?></h2>
+                            <p><?= $ln["water_resistant_text"]?></p>
                         </div>
                     </div>
                     <div class="elementdiv">
                         <i class="fas fa-bug"></i>
                         <div class="text-field">
-                            <h2>Highly Resistant To Insect Damage
+                            <h2>
+                                <?= $ln["highly_damage"]?>
                             </h2>
-                            <p>Another advantage is that plastic lumber is highly resistant to insect damage and thus
-                                provides a longer life.
+                            <p>
+                                <?= $ln["highly_damage_text"]?>
                             </p>
                         </div>
                     </div>
@@ -782,21 +747,17 @@
                     <div class="elementdiv">
                         <i class="fas fa-hand-spock"></i>
                         <div class="text-field">
-                            <h2>SHOCK RESISTANT
+                            <h2><?= $ln["shock_resistant"]?>
                             </h2>
-                            <p>Shock Resistance makes it perfect for marine and other water applications, where the
-                                lumber is further prized by its ability to resist shock.
-                            </p>
+                            <p><?= $ln["shock_resistant_text"]?></p>
                         </div>
                     </div>
                     <div class="elementdiv">
                         <i class="fas fa-home"></i>
                         <div class="text-field">
-                            <h2>Low Maintenance
+                            <h2><?= $ln["low_maintence"]?>
                             </h2>
-                            <p>Plastic lumber is more environmentally friendly and requires less maintenance than
-                                wood/plastic composites or rot-resistant wood.
-                            </p>
+                            <p><?= $ln["wood_plastic"]?></p>
                         </div>
                     </div>
                 </div>
@@ -807,11 +768,9 @@
         <div class="container text-center">
             <div class="textarea">
                 <h2>
-                    Ecological Technologies Limited - <span>Providing Homes To The Homeless And Refugees<span>
+                    <?= $ln["ecological_tech"]?> <span><?= $ln["providing"]?><span>
                 </h2>
-                <p>With the innovative solutions offered, Ecological Technologies Limited solves a greater problem
-                    providing homes to the homeless and thus making a contribution to society.
-                </p>
+                <p><?= $ln["providing_text"]?></p>
             </div>
             <div class="img-fluid">
                 <img src="assets/images/Build.jpg" alt="Build" />
@@ -824,25 +783,22 @@
                 <img src="assets/images/earth.png" alt="earth" />
             </div>
             <div class="plactic-text">
-                <h2>Plastic Lumber:
-                    <span>Alternative Wood For Our Planet</span>
+                <h2><?= $ln["plastic"]?>
+                    <span><?= $ln["alternative_wood"]?></span>
                 </h2>
-                <p>Plastic lumber can be used for many of the following applications, replacing traditional wood
-                    altogether.
-                </p>
+                <p><?= $ln["plastic_lumber"]?></p>
                 <div class="icon-field">
                     <div class="element">
                         <img src="assets/images/check.png" alt="check" />
-                        <p>Flexibility</p>
+                        <p><?= $ln["flexibility"]?></p>
                     </div>
                     <div class="element">
                         <img src="assets/images/check.png" alt="check" />
-                        <p>Lower maintenance
-                        </p>
+                        <p><?= $ln["lower_maintence"]?> </p>
                     </div>
                     <div class="element">
                         <img src="assets/images/check.png" alt="check" />
-                        <p>Less repainting
+                        <p><?= $ln["less_repain"]?>
                         </p>
                     </div>
                 </div>
@@ -851,36 +807,35 @@
     </div>
     <div class="card-section">
         <div class="container text-center">
-            <h2>Advantages Of <span>Plastic
-                    Lumber Construction?</span></h2>
+            <h2><?= $ln["advantages_of"]?><span><?= $ln["construction"]?></span></h2>
             <div class="row cardcontent">
                 <div class="row">
                     <div class="col-md-3">
                         <div class="elment">
                             <i class="fas fa-dumbbell"></i>
-                            <h2>STRENGTH</h2>
-                            <p>Increases a building’s structural strength by up to 10 fold.</p>
+                            <h2><?= $ln["strength"]?></h2>
+                            <p><?= $ln["strength_text"]?></p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="elment">
                             <i class="fas fa-road"></i>
-                            <h2>SPEED X 400</h2>
-                            <p>Accelerates building processes by up to 400%</p>
+                            <h2><?= $ln["speed_4"]?></h2>
+                            <p><?= $ln["speed_4_text"]?></p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="elment">
                             <i class="far fa-money-bill-alt"></i>
-                            <h2>STRENGTH</h2>
-                            <p>Increases a building’s structural strength by up to 10 fold.</p>
+                            <h2><?= $ln["strength"]?></h2>
+                            <p><?= $ln["strength_text"]?></p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="elment">
                             <i class="fas fa-temperature-high"></i>
-                            <h2>THERMAL</h2>
-                            <p>Reduces construction labor costs.</p>
+                            <h2><?= $ln["thermal"]?></h2>
+                            <p><?= $ln["thermal_text"]?></p>
                         </div>
                     </div>
                 </div>
@@ -888,29 +843,29 @@
                     <div class="col-md-3">
                         <div class="elment">
                             <i class="fas fa-chart-line"></i>
-                            <h2>MORE DURABLE</h2>
-                            <p>Houses constructed provide maximum durability.</p>
+                            <h2><?= $ln["durable"]?></h2>
+                            <p><?= $ln["durable_text"]?></p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="elment">
                             <i class="fas fa-home"></i>
-                            <h2>LOWER MAINTENANCE</h2>
-                            <p>Materials used promote lower maintenance cost.</p>
+                            <h2><?= $ln["lower_main"]?></h2>
+                            <p><?= $ln["lower_main_text"]?></p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="elment">
                             <i class="fas fa-hourglass-start"></i>
-                            <h2>LONGER LIFESPAN</h2>
-                            <p>Plastic lumber, in comparison to wood has a longer life span.</p>
+                            <h2><?= $ln["longer_list"]?></h2>
+                            <p><?= $ln["longer_list_text"]?></p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="elment">
                             <i class="fas fa-paint-brush"></i>
-                            <h2>LESS REPAINTING</h2>
-                            <p>Plastic lumber materials do not need to be repainted.</p>
+                            <h2><?= $ln["less_re"]?></h2>
+                            <p><?= $ln["less_re_text"]?></p>
                         </div>
                     </div>
                 </div>
@@ -920,42 +875,40 @@
     <div class="Plastic">
         <div class="container text-center">
             <div class="plactic-text">
-                <h2>Our Products-
-                    <span>The Future Of Housing</span>
+                <h2><?= $ln["our_product"]?>
+                    <span><?= $ln["future_of_hos"]?></span>
                 </h2>
-                <p>Ecological Technologies Limited’s product can be molded to meet almost any desired spatial condition,
-                    a major advantage over wood. It is manufactured in a variety of colors and is widely available in
-                    grays and earth tones. Overall, plastic lumber can be used for many of the following applications,
-                    replacing traditional wood altogether. Some of the uses include:
+                <p>
+                    <?= $ln["molded_product"]?>
                 </p>
                 <div class="icon-field">
                     <div class="element">
                         <img src="assets/images/check.png" alt="check" />
-                        <p>Deck floors</p>
+                        <p><?= $ln["deck_floor"]?></p>
                     </div>
                     <div class="element">
                         <img src="assets/images/check.png" alt="check" />
-                        <p>Railings</p>
+                        <p><?= $ln["railing"]?></p>
                     </div>
                     <div class="element">
                         <img src="assets/images/check.png" alt="check" />
-                        <p>Fences</p>
+                        <p><?= $ln["fence"]?></p>
                     </div>
                     <div class="element">
                         <img src="assets/images/check.png" alt="check" />
-                        <p>Landscaping timbers</p>
+                        <p><?= $ln["landscaping_timer"]?></p>
                     </div>
                     <div class="element">
                         <img src="assets/images/check.png" alt="check" />
-                        <p>Cladding and siding</p>
+                        <p><?= $ln["cladding_sidi"]?></p>
                     </div>
                     <div class="element">
                         <img src="assets/images/check.png" alt="check" />
-                        <p>Park benches</p>
+                        <p><?= $ln["park_ben"]?></p>
                     </div>
                     <div class="element">
                         <img src="assets/images/check.png" alt="check" />
-                        <p>Folding and trim</p>
+                        <p><?= $ln["folding"]?></p>
                     </div>
                 </div>
             </div>
@@ -971,11 +924,9 @@
                     <img src="assets/images/6.png" alt="6" />
                 </div>
                 <div class="col-md-6">
-                    <h2>The Perfect<span> Circular Economy</span></h2>
+                    <h2><?= $ln["perfect"]?><span> <?= $ln["circulr_economy"]?></span></h2>
                     <p>
-                        We solve the main challenge to improve resource efficiency and productivity and ensure that
-                        materials are used efficiently at all stages of their lifecycle (extraction, transport,
-                        manufacturing, consumption, recovery and disposal) and throughout the supply chain.
+                        <?= $ln["circulr_economy_text"]?>
                     </p>
                 </div>
             </div>
@@ -983,60 +934,58 @@
     </div>
     <div class="Clients section">
         <div class="container text-center">
-            <h2>What Do Our <span>Clients Say?</span></h2>
-            <p>We aim to improve resource efficiency and productivity and ensure that materials are used efficiently at
-                all stages of their lifecycle.
-            </p>
-            <p>Reduce, Recycle and Reuse.</p>
+            <h2><?= $ln["what_do_our"]?><span><?= $ln["client_say"]?></span></h2>
+            <p><?= $ln["amin_text"]?></p>
+            <p><?= $ln["reuse"]?></p>
         </div>
     </div>
-    <div class="causoler-slider">
+    <div class="slider-section">
         <div class="container text-center">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <p class="swiper-header">
+                            <?= $ln["they_provide"]?>
+                        </p>
+                        <div class="imagetext_section">
+                            <img src="assets/images/1.png" alt="1image" />
+                            <div>
+                                <h2><?= $ln["mojika"]?></h2>
+                                <p><?= $ln["cto_uxa"]?></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="swiper-header"><?= $ln["optimum_text"]?></p>
+                        <div class="imagetext_section">
+                            <img src="assets/images/2.png" alt="2image" />
+                            <div>
+                                <h2><?= $ln["harington"]?></h2>
+                                <p><?= $ln["ceo_craft"]?></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="swiper-header">
+                            <?= $ln["uknetwork_text"]?>
+                        </p>
+                        <div class="imagetext_section">
+                            <img src="assets/images/3.png" alt="3image" />
+                            <div>
+                                <h2><?= $ln["filippus"]?></h2>
+                                <p><?= $ln["filippus_text"]?></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="..." class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="..." class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </div>
+
 </section>
 <!-- GWG End -->
 <!-- About Begin -->
@@ -1440,6 +1389,9 @@ $(function() {
         // console.log(e);
         // checkReponse();
     });
+    $('a[href="index.php"]').parent().addClass("active");
+    $('a[href="index.php"]').parent().siblings().removeClass("active");
+
 
     function checkReponse() {
         if (window.innerWidth > 600) {

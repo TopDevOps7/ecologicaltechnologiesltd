@@ -1,2 +1,3 @@
 RewriteEngine on
 RewriteRule (files/.*)   backoffice/authmiddleware.php?path=$1  [L]
+

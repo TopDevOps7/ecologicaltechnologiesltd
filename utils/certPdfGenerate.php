@@ -16,7 +16,7 @@ class CustomPdfGenerator extends TCPDF
     {
         // $this->SetY(-15);
         // $this->SetFont('helvetica', 'I', 15);
-        // $this->Cell(0, 10, 'Green Wave Materials Support Team.', 0, false, 'C', 0, '', 0, false, 'T', 'M');
+        // $this->Cell(0, 10, 'Green Wave Gold Support Team.', 0, false, 'C', 0, '', 0, false, 'T', 'M');
     }
 
     public function printBody($data)

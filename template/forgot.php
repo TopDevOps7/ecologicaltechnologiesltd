@@ -97,7 +97,7 @@ class Forgot {
                                           <hr>
                                           Mit freundlichen Grüßen<br>
                                           <hr>
-                                          Ihr Green Wave Materials Team
+                                          Ihr Green Wave Gold Team
                                           </p>
                                         </td>
                                       </tr>

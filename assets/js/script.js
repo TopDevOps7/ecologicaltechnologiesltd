@@ -1,6 +1,41 @@
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  mousewheel: {
+    invert: true,
+  },
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  autoHeight: true,
+  // Navigation arrows
+  allowTouchMove: true,
+  effeffect: "slide",
+  // And if we need scrollbar
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 1,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 40
+    }
+  }
+});
 var slideIndex = 1;
-showSlides(slideIndex);
-
+if (window.location.href.indexOf("index.php") > -1) {
+  showSlides(slideIndex);
+}
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
@@ -26,11 +61,24 @@ function showSlides(n) {
 }
 
 window.setInterval(function () {
-  plusSlides(1);
+  if (window.location.href.indexOf("index.php") > -1) {
+    plusSlides(1);
+  }
 }, 10000);
 
+
+
+$(".main-header .navbar-nav li a.contact").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#contact_us").offset().top - 50,
+    },
+    100
+  );
+  return false;
+});
 /* Scroll to section on Nav click JS */
-$(".main-header .navbar-nav li> a").click(function () {
+$(".main-header .navbar-nav li> a:nth-child(1) ").click(function () {
   $("html, body").animate(
     {
       scrollTop:
@@ -42,6 +90,8 @@ $(".main-header .navbar-nav li> a").click(function () {
   );
   return false;
 });
+
+
 $("#slideshow > div:gt(0)").hide();
 
 
@@ -56,11 +106,18 @@ $(".main-header .navbar-nav li a.contact").click(function () {
   return false;
 });
 
+
+
+// $(".video_section").click(function () {
+//   console.log("okay");
+//   $("#exampleModalCenter").show();
+// });
+
 /* Add class on Header on window scroll */
 $(window).scroll(function () {
   var scroll = $(window).scrollTop();
-
 });
+
 
 /* Add active class on active Navigation */
 $(".main-header .navbar-nav li a").click(function () {
@@ -75,19 +132,19 @@ $(".main-header .navbar-brand img").click(function () {
 
 /* Add active class on Navigation on window scroll */
 $(window)
-  .scroll(function () {
-    var distance = $(window).scrollTop();
-    if ($(window).scrollTop() == 0) {
-      $(".navbar-nav li.active").removeClass("active");
-    }
+  // .scroll(function () {
+  //   var distance = $(window).scrollTop();
+  //   if ($(window).scrollTop() == 0) {
+  //     $(".navbar-nav li.active").removeClass("active");
+  //   }
 
-    $(".page-section").each(function (i) {
-      if ($(this).position().top <= distance + 300) {
-        $(".main-header .navbar-nav li.active").removeClass("active");
-        $(".main-header .navbar-nav li").eq(i).addClass("active");
-      }
-    });
-  })
+  //   $(".page-section").each(function (i) {
+  //     if ($(this).position().top <= distance + 300) {
+  //       $(".main-header .navbar-nav li.active").removeClass("active");
+  //       $(".main-header .navbar-nav li").eq(i).addClass("active");
+  //     }
+  //   });
+  // })
   .scroll();
 
 $("#sendOrderMail").submit((e) => {

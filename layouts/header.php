@@ -75,7 +75,7 @@ let rPath = "<?php echo $basePath; ?>";
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all" />
-    <title>Green Wave Materials</title>
+    <title>Green Wave Gold</title>
     <link rel="icon" type="image/x-icon" href="assets/images/circleLogo.png">
 
 
@@ -96,7 +96,7 @@ let rPath = "<?php echo $basePath; ?>";
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css"
         integrity="sha512-3pIirOrwegjM6erE5gPSwkUzO+3cTjpnV9lexlNZqvupR64iZBnOOTiiLPb9M36zpMScbmUNIcHUqKD47M719g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -178,7 +178,6 @@ let rPath = "<?php echo $basePath; ?>";
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
 </head>
 
@@ -192,7 +191,7 @@ let rPath = "<?php echo $basePath; ?>";
             <div class="container">
                 <!-- <div id="google_translate_element"></div> -->
                 <a class="navbar-brand" href="./">
-                    <img src="assets/images/Ecological-tech-Logo.png" alt="Green Wave Materials" class="img-fluid">
+                    <img src="assets/images/Ecological-tech-Logo.png" alt="Green Wave Gold" class="img-fluid">
                 </a>
 
                 <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
@@ -203,33 +202,60 @@ let rPath = "<?php echo $basePath; ?>";
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav ms-auto me-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="./#home"><?= $ln["home"] ?></a>
+                            <a class="nav-link" href="index.php"><?= $ln["home"] ?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./#about_us"><?= $ln["about_us"] ?></a>
+                            <a class="nav-link" href="about.php"><?= $ln["about_us"] ?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./#portfolio"><?= $ln["portfolio"] ?></a>
+                            <div class="dropdown">
+                                <a class="nav-link contact" id="dropdownMenuButton" data-toggle="dropdown"
+                                    aria-expanded="false" aria-haspopup="true" href="./#contact_us">
+                                    <?= $ln["portfolio"] ?>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="aviation.php"><?= $ln["aviation"] ?></a>
+                                    <a class="dropdown-item" href="space.php"><?=$ln["space"] ?></a>
+                                    <a class="dropdown-item" href="rail.php"><?=$ln["Rail"] ?></a>
+                                    <a class="dropdown-item" href="defence.php"><?= $ln["Defence"] ?></a>
+                                    <a class="dropdown-item" href="road.php"><?= $ln["Road"] ?></a>
+                                    <a class="dropdown-item"
+                                        href="engineer.php"><?= $ln["mechanical_engineering"] ?></a>
+                                    <a class="dropdown-item" href="ship.php"><?= $ln["ship_yacht"] ?></a>
+                                    <a class="dropdown-item" href="trade.php"><?= $ln["trade_process"] ?></a>
+                                    <a class="dropdown-item" href="architecture.php"><?= $ln["architecture"] ?></a>
+                                </div>
+                            </div>
                         </li>
                         <li>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./#strategy"><?= $ln['documents'] ?></a>
+                            <a class="nav-link" href="document.php"><?= $ln['documents'] ?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link contact" href="./#contact_us"><?= $ln["whyus"] ?></a>
+                            <a class="nav-link contact" href="whyus.php"><?= $ln["whyus"] ?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link contact" href="./#contact_us"><?= $ln["technology"] ?></a>
+                            <a class="nav-link contact" href="technology.php"><?= $ln["technology"] ?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link contact" href="./#contact_us"><?= $ln["videos"] ?></a>
+                            <a class="nav-link contact" href="video.php"><?= $ln["videos"] ?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link contact" href="./#contact_us"><?= $ln["investors"] ?></a>
+                            <div class="dropdown">
+                                <a class="nav-link contact" id="dropdownMenuButton" data-toggle="dropdown"
+                                    aria-expanded="false" aria-haspopup="true" href="./#contact_us">
+                                    <?= $ln["investors"] ?>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="investor-registration.php">
+                                        <?= $ln["investorregistration"] ?></a>
+                                    <a class="dropdown-item" href="download.php"><?= $ln["download"] ?></a>
+                                </div>
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link contact" href="./#contact_us"><?= $ln["contact"] ?></a>
+                            <a class="nav-link contact" href="contactus.php"><?= $ln["contact"] ?></a>
                         </li>
                         <li class="nav-item">
                             <div class="container">
@@ -242,7 +268,8 @@ let rPath = "<?php echo $basePath; ?>";
                                     <div class="dropdown-menu">
                                         <a class="dropdown-item <?= $lang == "de" ? "active": "" ?>" data-lang='de'
                                             href="javascript:void(0);"><img src="assets/images/flags/de.svg" alt="de">
-                                            German</a>
+                                            Deutsch
+                                        </a>
                                         <a class="dropdown-item <?= $lang == "en" ? "active": "" ?>" data-lang='en'
                                             href="javascript:void(0);"><img src="assets/images/flags/en.svg" alt="en">
                                             English</a>

@@ -1,51 +1,93 @@
 <!-- Footer Begin -->
 <footer class="footer mb-5 mb-md-4">
-    <div class="container">
-        <div class="row d-flex align-items-center">
-            <div class="col-12 col-md-3 d-flex align-items-center">
-                <a href="#">
-                    <img src="assets/images/logo-footer.png" alt="Green Wave Gold" class="img-fluid foot-logo" />
-                </a>
-            </div>
-            <div class="col-md-9">
-                <div class="row footer-info">
-                    <div class="col-12 col-md-5">
-                        <div class="d-flex">
-                            <i class="fas fa-map-marker-alt" style="font-size: 17px; margin-top: 5px;"></i>
-                            <span><?= $ln['footer_text1'] ?> <br> <?= $ln['footer_text2'] ?></span>
-                        </div>
-                        <div class="d-flex mt-4 align-items-baseline">
-                            <i class="fas fa-copyright" style="font-size: 16px; margin-top: 5px;"></i>
-                            <span><?= $ln["copyright_text"] ?> <?= date('Y') ?></span>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="d-flex align-items-baseline">
-                            <i class="fas fa-phone-alt fa-o"></i>
-                            <span>+ 1 (780) 851-3649</span>
-                        </div>
-                        <div class="d-flex align-items-baseline mt-4">
-                            <i class="fas fa-envelope"
-                                style="color: #263238; font-size: 8px; border-radius: 50%; background-color: green; padding: 5px 4px 4px 5px; display: flex; width: 17px; height: 17px;"></i>
-                            <span>support@greenwavematerials.com</span>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-3">
-                        <div class="d-flex align-items-baseline">
-                            <i class="fas fa-print fa-o"></i>
-                            <span>
-                                <a href="imprint.php"><?= $ln['imprint'] ?></a>
-                            </span>
-                        </div>
-                        <div class="d-flex align-items-baseline mt-4">
-                            <i class="fa-solid fa-shield fa-o"></i>
-                            <span>
-                                <a href="privacy.php"><?= $ln['privacy_policy'] ?></a>
-                            </span>
-                        </div>
-                    </div>
+    <div class="contact-section">
+        <div class="container">
+            <h2><?= $ln["subscribe_footer"]?><span><?= $ln["newsletter"]  ?></span></h2>
+            <div class="input_group">
+                <div class="form-group">
+                    <label for="pwd"><?= $ln["firtname"]  ?></label>
+                    <input type="password" class="form-control" id="pwd" name="password">
+                </div>
+                <div class="form-group">
+                    <label for="pwd"><?= $ln["lastname"]  ?></label>
+                    <input type="password" class="form-control" id="pwd" name="password">
+                </div>
+                <div class="form-group">
+                    <label for="pwd"><?= $ln["email"]  ?></label>
+                    <input type="password" class="form-control" id="pwd" name="password">
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn btn-primary"><?= $ln["subscribe"]  ?></button>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="foot-bottom">
+        <div class="container text-center">
+            <div class="item">
+                <img src="assets/images/Ecological-tech-Logo.png" alt="footerbottom-img" />
+                <p class="bottom-text">
+                    <?= $ln["productivity"]  ?>
+                </p>
+            </div>
+            <div class="item">
+                <h2>Quick Links</h2>
+                <div class="link_form">
+                    <ul>
+                        <li><a href="#"> <?= $ln["home"]  ?></a></li>
+                        <li><a href="#"><?= $ln["about_us"]  ?></a></li>
+                        <li><a href="#"><?= $ln["technology"]  ?></a></li>
+                        <li><a href="#"><?= $ln["contact"]  ?></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <h2><?= $ln["legal"]  ?></h2>
+                <div class="link_form">
+                    <ul>
+                        <li><a href="#"><?= $ln["terms"]  ?></a></li>
+                        <li><a href="#"><?= $ln["privacy"]  ?></a></li>
+                        <li><a href="#"><?= $ln["cookie"]  ?></a></li>
+                        <li><a href="#"><?= $ln["imprint"]  ?></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <h2><?= $ln["contact"]  ?></h2>
+                <div class="link_form">
+                    <ul>
+                        <li><a href="#"><span><?= $ln["address"]  ?></span> <?= $ln["401bay"]  ?></a></li>
+                        <li><a href="#"><span><?= $ln["uaddress"]  ?></span> <?= $ln["575ave"]  ?></a></li>
+                        <li>
+                            <a href="#">
+                                <span><?= $ln["emails"]  ?></span><br />info@ecologicaltechnologiesltd.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot-btomm-text-section">
+        <div class="container">
+            <hr class="bottom_line" />
+            <p> <?= $ln["ecological"]  ?><span><?= $ln["privacy"]  ?></span> </p>
+            <p> <?= $ln["historical_certain"]  ?> </p>
+            <p>
+                <strong> <?= $ln["place_just"]  ?> </strong> <?= $ln["place_just_text"]  ?>
+            </p>
+            <p>
+                <strong><?= $ln["risk"]  ?></strong> <?= $ln["risk_text"]  ?>
+            </P>
+            <p>
+                <strong><?= $ln["dealer"]  ?> </strong><?= $ln["dealer_bottom_text"]  ?>
+            </P>
+            <p><?= $ln["no_offer"]  ?> </p>
+            <p><?= $ln["no_offer_bottom"]  ?> </p>
+            <p><?= $ln["offfer_legal"]  ?> </p>
+            <p><?= $ln["offfer_legal_text"]  ?> </p>
+            <p><?= $ln["regarding_link"]  ?> </p>
+            <p><?= $ln["regarding_link_text"]  ?></p>
         </div>
     </div>
     <!-- <div class="footer-bottom">
@@ -155,6 +197,8 @@
 </div>
 
 <script src="assets/js/jquery/jquery.min.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
 </script>
@@ -176,7 +220,6 @@
     integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
-<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
 <script src="assets/js/jquery.marquee.min.js"></script>
 <script src="assets/js/jquery.pause.min.js"></script>
@@ -277,8 +320,8 @@ function getLivedData() {
 }
 
 function start() {
-    new mq('latest-news');
-    mqRotate(mqr);
+    // new mq('latest-news');
+    // mqRotate(mqr);
 }
 window.onload = start;
 
@@ -346,14 +389,12 @@ function mqRotate(mqr) {
 // });
 </script>
 <div class="container-fluid ps-0  pe-0">
-    <div class="row">
+    <!-- <div class="row">
         <div class="col-sm-12" style="padding-top:1.5px;">
-            <!-- <div class="animation"> -->
             <div id="latest-news" class="marquee">
                 <span style="white-space: nowrap;">
                     <?php
             			$arr = array();
-                        // $conn = get_connection();
                         $sql = "select * from ticker WHERE name != 'GWG' order by id asc";
                         $stmt = $DB_con->prepare($sql);
                         $stmt->execute();
@@ -383,9 +424,8 @@ function mqRotate(mqr) {
                     <?php } } ?>
                 </span>
             </div>
-            <!-- </div> -->
         </div>
-    </div>
+    </div> -->
 </div>
 </body>
 
