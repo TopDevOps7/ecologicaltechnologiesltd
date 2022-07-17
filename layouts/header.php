@@ -190,7 +190,7 @@ let rPath = "<?php echo $basePath; ?>";
         <nav class="navbar navbar-expand-lg main-header">
             <div class="container">
                 <!-- <div id="google_translate_element"></div> -->
-                <a class="navbar-brand" href="index.php">
+                <a class="navbar-brand" href="index_x.php">
                     <img src="assets/images/Ecological-tech-Logo.png" alt="Green Wave Gold" class="img-fluid">
                 </a>
 
@@ -202,7 +202,7 @@ let rPath = "<?php echo $basePath; ?>";
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav ms-auto me-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php"><?= $ln["home"] ?></a>
+                            <a class="nav-link" href="index_x.php"><?= $ln["home"] ?></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.php"><?= $ln["about_us"] ?></a>

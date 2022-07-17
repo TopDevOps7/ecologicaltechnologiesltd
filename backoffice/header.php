@@ -15,7 +15,7 @@
       header("location: investment.php");
     }
 
-    if($page != "index.php" && $page != "investment.php" && $page != "forms.php") {
+    if($page != "index_x.php" && $page != "investment.php" && $page != "forms.php") {
       if($role != 1) {
         header("location: ./");
       }
@@ -192,15 +192,15 @@ let rPath = "<?php echo $basePath; ?>";
                 <li class="<?= $page == "antalya.php" ? "active" : "" ?>"><a href="antalya.php">Antalya</a></li>
             </ul>
         </div>
-        <a class="btn btn-success text-right site-btn<?= $page == 'index.php' ? " active" : "" ?>"
-            href="index.php">Clients</a>
+        <a class="btn btn-success text-right site-btn<?= $page == 'index_x.php' ? " active" : "" ?>"
+            href="index_x.php">Clients</a>
         <a class="btn btn-success text-right site-btn<?= $page == 'investment.php' ? " active" : "" ?>"
             href="investment.php">Investments</a>
         <a class="btn btn-success text-right site-btn<?= $page == 'price.php' ? " active" : "" ?>"
             href="price.php">Price/Chart</a>
         <?php } else { ?>
-        <a class="btn btn-success text-right site-btn<?= $page == 'index.php' ? " active" : "" ?>"
-            href="index.php">Clients</a>
+        <a class="btn btn-success text-right site-btn<?= $page == 'index_x.php' ? " active" : "" ?>"
+            href="index_x.php">Clients</a>
         <a class="btn btn-success text-right site-btn<?= $page == 'investment.php' ? " active" : "" ?>"
             href="investment.php">Investments</a>
         <?php } ?>
@@ -220,7 +220,7 @@ let rPath = "<?php echo $basePath; ?>";
             </i><?= $text ?></a>
         <?php } ?>
 
-        <?php if(($role == 1) && $page == "index.php") { ?>
+        <?php if(($role == 1) && $page == "index_x.php") { ?>
         <a href="../utils/zipUserExport.php" class="btn site-btn p-1 mr-4" style="float: right;"><i
                 class="fa-solid fa-folder-tree" style="margin-right: 8px;">
             </i> KYC</a>

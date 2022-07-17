@@ -231,7 +231,7 @@
 
 <script>
 let url = location.href;
-url = url.split("index.php")[1];
+url = url.split("index_x.php")[1];
 $(function() {
     if (url) {
         $("html, body").animate({

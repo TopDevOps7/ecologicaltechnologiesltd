@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /
+
+User-Agent: Googlebot
+Disallow: /
+
+User-agent: BadBot
+Disallow: /
+User-agent: *
+Disallow: /~joe/stuff/

@@ -1389,11 +1389,11 @@ $(function() {
         // console.log(e);
         // checkReponse();
     });
-    $('a[href="index.php"]').parent().addClass("active");
-    $('a[href="index.php"]').parent().siblings().removeClass("active");
-    if (window.location.href.indexOf("index.php") == -1) {
+    $('a[href="index_x.php"]').parent().addClass("active");
+    $('a[href="index_x.php"]').parent().siblings().removeClass("active");
+    if (window.location.href.indexOf("index_x.php") == -1) {
         console.log("not");
-        window.location.href = "index.php";
+        window.location.href = "index_x.php";
     }
 
     function checkReponse() {

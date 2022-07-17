@@ -19,9 +19,9 @@
           header("location: user.php");
         }
         else if($role == 1) {
-          header("location: backoffice");
+          header("location: backoffice/index_x.php");
         } else {
-          header("location: backoffice");
+          header("location: backoffice/index_x.php");
         }
         exit();
       }

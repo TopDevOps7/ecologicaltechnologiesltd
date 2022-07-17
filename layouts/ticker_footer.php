@@ -1,54 +1,54 @@
 <!-- Footer Begin -->
 <footer class="footer">
-  <div class="container">
-    <div class="row d-flex align-items-center">
-      <div class="col-12 col-sm-3 d-flex align-items-center">
-        <a href="#">
-          <img src="assets/images/logo-footer.png" alt="Green Wave Gold" class="img-fluid foot-logo" />
-        </a>
-      </div>
-      <div class="col-sm-9">
-        <div class="row footer-info">
-          <div class="col-12 col-sm-5">
-            <div class="d-flex">
-              <i class="fas fa-map-marker-alt" style="font-size: 17px; margin-top: 5px;"></i>
-              <span><?= $ln['footer_text1'] ?> <br> <?= $ln['footer_text2'] ?></span>
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-12 col-sm-3 d-flex align-items-center">
+                <a href="#">
+                    <img src="assets/images/logo-footer.png" alt="Green Wave Gold" class="img-fluid foot-logo" />
+                </a>
             </div>
-            <div class="d-flex mt-4 align-items-baseline">
-              <i class="fas fa-copyright" style="font-size: 16px; margin-top: 5px;"></i>
-              <span><?= $ln["copyright_text"] ?> <?= date('Y') ?></span>
+            <div class="col-sm-9">
+                <div class="row footer-info">
+                    <div class="col-12 col-sm-5">
+                        <div class="d-flex">
+                            <i class="fas fa-map-marker-alt" style="font-size: 17px; margin-top: 5px;"></i>
+                            <span><?= $ln['footer_text1'] ?> <br> <?= $ln['footer_text2'] ?></span>
+                        </div>
+                        <div class="d-flex mt-4 align-items-baseline">
+                            <i class="fas fa-copyright" style="font-size: 16px; margin-top: 5px;"></i>
+                            <span><?= $ln["copyright_text"] ?> <?= date('Y') ?></span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <div class="d-flex align-items-baseline">
+                            <i class="fas fa-phone-alt fa-o"></i>
+                            <span>+ 1 (780) 851-3649</span>
+                        </div>
+                        <div class="d-flex align-items-baseline mt-4">
+                            <i class="fas fa-envelope"
+                                style="color: #263238; font-size: 8px; border-radius: 50%; background-color: green; padding: 5px 4px 4px 5px; display: flex; width: 17px; height: 17px;"></i>
+                            <span>support@greenwavematerials.com</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-3">
+                        <div class="d-flex align-items-baseline">
+                            <i class="fas fa-print fa-o"></i>
+                            <span>
+                                <a href="imprint.php"><?= $ln['imprint'] ?></a>
+                            </span>
+                        </div>
+                        <div class="d-flex align-items-baseline mt-4">
+                            <i class="fa-solid fa-shield fa-o"></i>
+                            <span>
+                                <a href="privacy.php"><?= $ln['privacy_policy'] ?></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-12 col-sm-4">
-            <div class="d-flex align-items-baseline">
-              <i class="fas fa-phone-alt fa-o"></i>
-              <span>+ 1 (780) 851-3649</span>
-            </div>
-            <div class="d-flex align-items-baseline mt-4">
-              <i class="fas fa-envelope"
-                style="color: #263238; font-size: 8px; border-radius: 50%; background-color: green; padding: 5px 4px 4px 5px; display: flex; width: 17px; height: 17px;"></i>
-              <span>support@greenwavematerials.com</span>
-            </div>
-          </div>
-          <div class="col-12 col-sm-3">
-            <div class="d-flex align-items-baseline">
-              <i class="fas fa-print fa-o"></i>
-              <span>
-                <a href="imprint.php"><?= $ln['imprint'] ?></a>
-              </span>
-            </div>
-            <div class="d-flex align-items-baseline mt-4">
-              <i class="fa-solid fa-shield fa-o"></i>
-              <span>
-                <a href="privacy.php"><?= $ln['privacy_policy'] ?></a>
-              </span>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
-  <!-- <div class="footer-bottom">
+    <!-- <div class="footer-bottom">
     <p class="mb-0 text-center">© <?= $ln["copyright_text"] ?> | <a href="#">Terms & Condition</a>
     </p>
   </div> -->
@@ -63,106 +63,108 @@
 
 <!-- Modal -->
 <div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="modalContents">
-          <div class="text-center">
-            <img src="assets/images/circleLogo.png" alt="circleLogo" class="circleLogo img-fluid">
-          </div>
-          <h1 class="sectionTitle text-light resetTwo"><span>Login</span></h1>
-          <!-- <h5 class="px-3 pb-2">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="modalContents">
+                    <div class="text-center">
+                        <img src="assets/images/circleLogo.png" alt="circleLogo" class="circleLogo img-fluid">
+                    </div>
+                    <h1 class="sectionTitle text-light resetTwo"><span>Login</span></h1>
+                    <!-- <h5 class="px-3 pb-2">
             Don't you have account? Plase
             <a href="register.php">Register</a>
           </h5> -->
-          <div class="userForm">
-            <form method="POST" lang="<?= $lang ?>">
-              <div class="mb-3 userInputIconCtrl">
-                <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="E-Mail"
-                  lang="<?= $lang ?>" value="<?= $_POST["email"] ?? "" ?>" aria-describedby="emailHelp" required>
-                <img src="assets/images/user.png" alt="user" class="img-fluid">
-              </div>
-              <div class="mb-3 userInputIconCtrl">
-                <input type="password" name="password" class="form-control" id="exampleInputPassword1"
-                  placeholder="<?= $ln["password"] ?>" required style="margin-bottom: 0;" lang="<?= $lang ?>">
-                <img src="assets/images/lock.png" alt="lock" class="img-fluid">
-              </div>
-              <p class="forgotPassWordCtrl d-flex justify-content-between px-2" style="line-height: 0">
-                <a href="register.php" class="forgotPass"><?= $ln["create_user"] ?></a>
-                <a href="#" class="forgotPass" data-bs-toggle="modal"
-                  data-bs-target="#forgotPasswordModal"><?= $ln["forgot_password"] ?></a>
-              </p>
-              <div class="text-center">
-                <button type="submit" name="loginbtn" class="btn button"><?= $ln["register"] ?></button>
-              </div>
-            </form>
-          </div>
+                    <div class="userForm">
+                        <form method="POST" lang="<?= $lang ?>">
+                            <div class="mb-3 userInputIconCtrl">
+                                <input type="email" name="email" class="form-control" id="exampleInputEmail1"
+                                    placeholder="E-Mail" lang="<?= $lang ?>" value="<?= $_POST["email"] ?? "" ?>"
+                                    aria-describedby="emailHelp" required>
+                                <img src="assets/images/user.png" alt="user" class="img-fluid">
+                            </div>
+                            <div class="mb-3 userInputIconCtrl">
+                                <input type="password" name="password" class="form-control" id="exampleInputPassword1"
+                                    placeholder="<?= $ln["password"] ?>" required style="margin-bottom: 0;"
+                                    lang="<?= $lang ?>">
+                                <img src="assets/images/lock.png" alt="lock" class="img-fluid">
+                            </div>
+                            <p class="forgotPassWordCtrl d-flex justify-content-between px-2" style="line-height: 0">
+                                <a href="register.php" class="forgotPass"><?= $ln["create_user"] ?></a>
+                                <a href="#" class="forgotPass" data-bs-toggle="modal"
+                                    data-bs-target="#forgotPasswordModal"><?= $ln["forgot_password"] ?></a>
+                            </p>
+                            <div class="text-center">
+                                <button type="submit" name="loginbtn" class="btn button"><?= $ln["register"] ?></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </div>
 
 
 
 <!--Forgot Modal Pass-->
 <div class="modal fade" id="forgotPasswordModal" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="modalContents">
-          <div class="text-center">
-            <img src="assets/images/circleLogo.png" alt="circleLogo" class="circleLogo img-fluid">
-          </div>
-          <h1 class="sectionTitle text-light resetTxt"><span><?= $ln["request_password"] ?></span></h1>
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="modalContents">
+                    <div class="text-center">
+                        <img src="assets/images/circleLogo.png" alt="circleLogo" class="circleLogo img-fluid">
+                    </div>
+                    <h1 class="sectionTitle text-light resetTxt"><span><?= $ln["request_password"] ?></span></h1>
 
-          <div class="userForm">
-            <form id="forgotPasswordForm">
-              <!-- <div class="mb-3 userInputIconCtrl">
+                    <div class="userForm">
+                        <form id="forgotPasswordForm">
+                            <!-- <div class="mb-3 userInputIconCtrl">
                 <input type="text" class="form-control" id="userName" placeholder="Name" aria-describedby="emailHelp"
                   required>
                 <img src="assets/images/user.png" alt="user" class="img-fluid">
               </div> -->
-              <div class="mb-3 userInputIconCtrl">
-                <input type="email" class="form-control" id="userEmail" placeholder="E-Mail" required>
-                <img src="assets/images/email.png" alt="email" class="img-fluid">
-              </div>
-              <!-- <div class="mb-3">
+                            <div class="mb-3 userInputIconCtrl">
+                                <input type="email" class="form-control" id="userEmail" placeholder="E-Mail" required>
+                                <img src="assets/images/email.png" alt="email" class="img-fluid">
+                            </div>
+                            <!-- <div class="mb-3">
                 <textarea class="form-control" id="forgotTextarea" rows="5" placeholder="" required></textarea>
               </div> -->
-              <!-- <p class="forgotPassWordCtrl text-end">
+                            <!-- <p class="forgotPassWordCtrl text-end">
                   <a href="#" class="forgotPass" data-bs-toggle="modal"
                   data-bs-target="#forgotPasswordModal">Forgot Password?</a>
                 </p> -->
-              <div class="text-center">
-                <button type="submit" class="btn button"><?= $ln['send'] ?></button>
-              </div>
-            </form>
-          </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn button"><?= $ln['send'] ?></button>
+                            </div>
+                        </form>
+                    </div>
 
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </div>
 
 <script src="assets/js/jquery/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js"
-  integrity="sha512-YUkaLm+KJ5lQXDBdqBqk7EVhJAdxRnVdT2vtCzwPHSweCzyMgYV/tgGF4/dCyqtCC2eCphz0lRQgatGVdfR0ww=="
-  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    integrity="sha512-YUkaLm+KJ5lQXDBdqBqk7EVhJAdxRnVdT2vtCzwPHSweCzyMgYV/tgGF4/dCyqtCC2eCphz0lRQgatGVdfR0ww=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.datatables.net/1.11.0/js/jquery.dataTables.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
-  integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
-  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="assets/js/bootstrap.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js">
 </script>
@@ -171,8 +173,8 @@
 <script src="https://cdn.datatables.net/fixedheader/3.1.9/js/dataTables.fixedHeader.min.js"></script>
 <script src="https://cdn.datatables.net/fixedcolumns/4.0.0/js/dataTables.fixedColumns.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"
-  integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw=="
-  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="assets/js/jquery.marquee.min.js"></script>
@@ -185,92 +187,92 @@
 
 <script>
 let url = location.href;
-url = url.split("index.php")[1];
+url = url.split("index_x.php")[1];
 $(function() {
-  if (url) {
-    $("html, body").animate({
-        scrollTop: $(url).offset().top - (url != "#contact_us" ? 190 : 50),
-      },
-      100
-    );
-  }
+    if (url) {
+        $("html, body").animate({
+                scrollTop: $(url).offset().top - (url != "#contact_us" ? 190 : 50),
+            },
+            100
+        );
+    }
 
-  let message = "<?= $authMessage ?? "" ?>";
+    let message = "<?= $authMessage ?? "" ?>";
 
-  console.log(message);
-  if (message) {
-    toastr.error(message);
-    $("#staticBackdrop").modal("show");
-  }
+    console.log(message);
+    if (message) {
+        toastr.error(message);
+        $("#staticBackdrop").modal("show");
+    }
 })
 </script>
 
 <script type="text/javascript">
 $(document).ready(function() {
-  getLivedData();
-  setInterval(function() {
     getLivedData();
-  }, 2000);
+    setInterval(function() {
+        getLivedData();
+    }, 2000);
 });
 
 function getLivedData() {
-  $.ajax({
-    type: "GET",
-    url: "get_live_data.php",
-    async: false,
-    dataType: "JSON",
-    data: {
-      user_id: "<?= isset($user) ? $user['id'] : "" ?>"
-    },
-    success: function({
-      prices,
-      data
-    }) {
-      let portfolio = 0;
-      data.portfolio.map(po => {
-        let curr = prices.filter(price => price.name == po.project)[0].price;
-        portfolio += Number(po.size) * Number(curr);
-      });
-      $("#portfolio").text(`${new Intl.NumberFormat('de-DE', {
+    $.ajax({
+        type: "GET",
+        url: "get_live_data.php",
+        async: false,
+        dataType: "JSON",
+        data: {
+            user_id: "<?= isset($user) ? $user['id'] : "" ?>"
+        },
+        success: function({
+            prices,
+            data
+        }) {
+            let portfolio = 0;
+            data.portfolio.map(po => {
+                let curr = prices.filter(price => price.name == po.project)[0].price;
+                portfolio += Number(po.size) * Number(curr);
+            });
+            $("#portfolio").text(`${new Intl.NumberFormat('de-DE', {
       minimumFractionDigits: 2
     }).format(portfolio.toFixed(2))} EUR`);
-      let performance = portfolio - Number(data.investment);
-      $("#performance").text(
-        `${performance > 0 ? "+" : ""}${new Intl.NumberFormat('de-DE', {
+            let performance = portfolio - Number(data.investment);
+            $("#performance").text(
+                `${performance > 0 ? "+" : ""}${new Intl.NumberFormat('de-DE', {
       minimumFractionDigits: 2
     }).format(performance.toFixed(2))} EUR (${performance > 0 ? "+" : ""}${new Intl.NumberFormat('de-DE', {
       minimumFractionDigits: 2
     }).format((data.investment ? (portfolio/data.investment * 100 - 100) : 0).toFixed(2))}%)`
-      );
-      $("#investment_size").text(`${new Intl.NumberFormat('de-DE', {
+            );
+            $("#investment_size").text(`${new Intl.NumberFormat('de-DE', {
       minimumFractionDigits: 2
     }).format(data.investment.toFixed(2))} EUR`);
-      $("#price").val(prices.filter(price => price.name == "GWG")[0].price);
-      prices.map((row, i) => {
-        var trading_selector = $(".trading-" + row.id);
+            $("#price").val(prices.filter(price => price.name == "GWG")[0].price);
+            prices.map((row, i) => {
+                var trading_selector = $(".trading-" + row.id);
 
-        if (trading_selector.length) {
-          trading_selector.find('.show-name').text(row.name);
-          trading_selector.find('.show-price').text(row.price);
-          trading_selector.find('.show-percentage').text(row.perc + '%');
+                if (trading_selector.length) {
+                    trading_selector.find('.show-name').text(row.name);
+                    trading_selector.find('.show-price').text(row.price);
+                    trading_selector.find('.show-percentage').text(row.perc + '%');
 
-          if (row.status == 1) {
-            trading_selector.find('.show-price').removeClass('currency_down');
-            trading_selector.find('.show-price').addClass('currency_up');
+                    if (row.status == 1) {
+                        trading_selector.find('.show-price').removeClass('currency_down');
+                        trading_selector.find('.show-price').addClass('currency_up');
 
-            trading_selector.find('.show-percentage').removeClass('diff_down');
-            trading_selector.find('.show-percentage').addClass('diff_up');
-          } else {
-            trading_selector.find('.show-price').addClass('currency_down');
-            trading_selector.find('.show-price').removeClass('currency_up');
+                        trading_selector.find('.show-percentage').removeClass('diff_down');
+                        trading_selector.find('.show-percentage').addClass('diff_up');
+                    } else {
+                        trading_selector.find('.show-price').addClass('currency_down');
+                        trading_selector.find('.show-price').removeClass('currency_up');
 
-            trading_selector.find('.show-percentage').addClass('diff_down');
-            trading_selector.find('.show-percentage').removeClass('diff_up');
-          }
+                        trading_selector.find('.show-percentage').addClass('diff_down');
+                        trading_selector.find('.show-percentage').removeClass('diff_up');
+                    }
+                }
+            });
         }
-      });
-    }
-  });
+    });
 }
 
 // function start() {
@@ -331,24 +333,24 @@ function getLivedData() {
 //   mqr[0].TO = setTimeout("mqRotate(mqr)", 20);
 // }
 $(function() {
-  $('.animation').marquee({
-    speed: 50,
-    gap: 0,
-    delayBeforeStart: 0,
-    direction: 'left',
-    duplicated: true,
-    pauseOnHover: true,
-    startVisible: true
-  });
+    $('.animation').marquee({
+        speed: 50,
+        gap: 0,
+        delayBeforeStart: 0,
+        direction: 'left',
+        duplicated: true,
+        pauseOnHover: true,
+        startVisible: true
+    });
 });
 </script>
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-12" style="padding-top:1.5px;">
-      <div class="animation">
-        <div id="latest-news" class="marquee">
-          <span style="white-space: nowrap;">
-            <?php
+    <div class="row">
+        <div class="col-sm-12" style="padding-top:1.5px;">
+            <div class="animation">
+                <div id="latest-news" class="marquee">
+                    <span style="white-space: nowrap;">
+                        <?php
             			$arr = array();
                         // $conn = get_connection();
                         $sql = "select * from ticker order by id asc ";
@@ -367,22 +369,23 @@ $(function() {
                             		$nfd = 2;
                             	}
                                 ?>
-            <span class="trading-<?=$row['id']?>">
-              <span class="show-name"><?=$row['name']?></span>
-              <span class="show-price <?php if($row['status'] == 1) echo 'currency_up'; else echo 'currency_down'; ?>">
-                <? echo number_format($row['price'], $nfd, '.', '\''); ?>
-              </span>
-              <span
-                class="show-percentage <?php if($row['status'] == 1) echo 'diff_up'; else echo 'diff_down'; ?>"><?php echo number_format($row['perc'], 2, '.', '\''); ?>%</span>
-              <span style="padding:0px 10px;">|</span>
-            </span>
-            <?php 
+                        <span class="trading-<?=$row['id']?>">
+                            <span class="show-name"><?=$row['name']?></span>
+                            <span
+                                class="show-price <?php if($row['status'] == 1) echo 'currency_up'; else echo 'currency_down'; ?>">
+                                <? echo number_format($row['price'], $nfd, '.', '\''); ?>
+                            </span>
+                            <span
+                                class="show-percentage <?php if($row['status'] == 1) echo 'diff_up'; else echo 'diff_down'; ?>"><?php echo number_format($row['perc'], 2, '.', '\''); ?>%</span>
+                            <span style="padding:0px 10px;">|</span>
+                        </span>
+                        <?php 
                             }
                         }
                     ?>
-          </span>
-          <span style="white-space: nowrap;">
-            <?php
+                    </span>
+                    <span style="white-space: nowrap;">
+                        <?php
             			$arr = array();
                         // $conn = get_connection();
                         $sql = "select * from ticker order by id asc ";
@@ -401,24 +404,25 @@ $(function() {
                             		$nfd = 2;
                             	}
                                 ?>
-            <span class="trading-<?=$row['id']?>">
-              <span class="show-name"><?=$row['name']?></span>
-              <span class="show-price <?php if($row['status'] == 1) echo 'currency_up'; else echo 'currency_down'; ?>">
-                <? echo number_format($row['price'], $nfd, '.', '\''); ?>
-              </span>
-              <span
-                class="show-percentage <?php if($row['status'] == 1) echo 'diff_up'; else echo 'diff_down'; ?>"><?php echo number_format($row['perc'], 2, '.', '\''); ?>%</span>
-              <span style="padding:0px 10px;">|</span>
-            </span>
-            <?php 
+                        <span class="trading-<?=$row['id']?>">
+                            <span class="show-name"><?=$row['name']?></span>
+                            <span
+                                class="show-price <?php if($row['status'] == 1) echo 'currency_up'; else echo 'currency_down'; ?>">
+                                <? echo number_format($row['price'], $nfd, '.', '\''); ?>
+                            </span>
+                            <span
+                                class="show-percentage <?php if($row['status'] == 1) echo 'diff_up'; else echo 'diff_down'; ?>"><?php echo number_format($row['perc'], 2, '.', '\''); ?>%</span>
+                            <span style="padding:0px 10px;">|</span>
+                        </span>
+                        <?php 
                             }
                         }
                     ?>
-          </span>
+                    </span>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </div>
 </body>
 

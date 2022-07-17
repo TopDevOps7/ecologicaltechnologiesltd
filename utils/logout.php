@@ -4,5 +4,5 @@
     }
     setcookie('login_pass', null, -1, '/');
     setcookie('user', null, -1, '/');
-    header("location: ../");
+    header("location: ../index_x.php");
 ?>
