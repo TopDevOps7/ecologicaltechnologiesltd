@@ -8638,7 +8638,7 @@ section {
 }
 
 .main-header .navbar-brand img {
-  width: 40%;
+  width: 60%;
   transition: all 0.3s ease-in-out;
 }
 
@@ -8646,7 +8646,12 @@ section {
   width: 100%;
 }
 
-.navbar.navbar-expand-lg.main-header>.container {
+.backofficeindex {
+  padding-top: 50px;
+}
+
+
+.navbar.navbar-expand-lg.main-header.main>.container {
   max-width: 1583px;
   padding: 1% 2% 1% 2%;
 }

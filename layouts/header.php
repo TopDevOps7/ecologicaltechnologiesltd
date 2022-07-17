@@ -187,7 +187,7 @@ let rPath = "<?php echo $basePath; ?>";
         <!-- <nav class="navbar top-toolbar <?= $hashValue != "" ? "administration" : "" ?>">
            
         </nav> -->
-        <nav class="navbar navbar-expand-lg main-header">
+        <nav class="navbar navbar-expand-lg main-header main">
             <div class="container">
                 <!-- <div id="google_translate_element"></div> -->
                 <a class="navbar-brand" href="index_x.php">
