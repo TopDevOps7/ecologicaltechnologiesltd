@@ -8615,8 +8615,7 @@ section {
 /* Main Header CSS */
 .main-header {
   position: fixed;
-  width: 100vw;
-  max-width: 1583px;
+  width: 100%;
   padding: 0;
   background-color: #fff;
   z-index: 999;
@@ -8639,7 +8638,7 @@ section {
 }
 
 .main-header .navbar-brand img {
-  width: 60%;
+  width: 40%;
   transition: all 0.3s ease-in-out;
 }
 
@@ -8649,7 +8648,7 @@ section {
 
 .navbar.navbar-expand-lg.main-header>.container {
   max-width: 1583px;
-  padding: 0% 1% 0% 1%;
+  padding: 1% 2% 1% 2%;
 }
 
 .main-header .navbar-nav .nav-item .dropdown.show .dropdown-menu {
