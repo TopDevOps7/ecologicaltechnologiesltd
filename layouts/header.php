@@ -190,7 +190,7 @@ let rPath = "<?php echo $basePath; ?>";
         <nav class="navbar navbar-expand-lg main-header">
             <div class="container">
                 <!-- <div id="google_translate_element"></div> -->
-                <a class="navbar-brand" href="./">
+                <a class="navbar-brand" href="index.php">
                     <img src="assets/images/Ecological-tech-Logo.png" alt="Green Wave Gold" class="img-fluid">
                 </a>
 
@@ -277,7 +277,7 @@ let rPath = "<?php echo $basePath; ?>";
                                 </div>
                             </div>
                         </li>
-                        <!-- <?php if(!$isLogin) { ?>
+                        <?php if(!$isLogin) { ?>
                         <li class="nav-item auth-btn login">
                             <a class="nav-link" href="javascript:void(0)" data-bs-toggle="modal"
                                 data-bs-target="#staticBackdrop">Login</a>
@@ -294,7 +294,7 @@ let rPath = "<?php echo $basePath; ?>";
                             <a href="backoffice"><i class="fas fa-sign-out-alt"></i></a>
                             <?php } ?>
                         </li>
-                        <?php } ?> -->
+                        <?php } ?>
                     </ul>
                 </div>
             </div>

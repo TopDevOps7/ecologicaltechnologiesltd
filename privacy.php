@@ -4,7 +4,7 @@
 	// ini_set('display_errors', false);
 	// ini_set('error_reporting', E_ALL);
 ?>
-<section class="userDiv p-0 d-flex align-items-center justify-content-center" style="margin-top: 14rem; height: 10rem;">
+<section class="userDiv p-0 d-flex align-items-center justify-content-center" style="margin-top: 0rem; height: 10rem;">
     <h1 class="text-white m-0" style="text-align: center; line-height:0.75em;padding-top:0.4em;">
         <?= $ln['privacy_policy'] ?>
     </h1>

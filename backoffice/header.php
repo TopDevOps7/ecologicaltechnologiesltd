@@ -87,7 +87,7 @@ let rPath = "<?php echo $basePath; ?>";
 <body>
     <!-- Header Begin -->
     <header>
-        <nav class="navbar top-toolbar">
+        <!-- <nav class="navbar top-toolbar">
             <div class="container">
                 <div class="dropdown">
                     <button type="button" class="btn btn-light border-0 dropdown-toggle p-0 bg-transparent"
@@ -102,7 +102,7 @@ let rPath = "<?php echo $basePath; ?>";
                     </div>
                 </div>
             </div>
-        </nav>
+        </nav> -->
         <nav class="navbar navbar-expand-lg main-header">
             <div class="container">
                 <a class="navbar-brand" href="../">
@@ -115,7 +115,26 @@ let rPath = "<?php echo $basePath; ?>";
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav ml-auto me-0">
+                    <ul class="navbar-nav ml-auto me-0" style="align-items:center">
+                        <li class="nav-item">
+                            <div class="container backoffice" style="margin-right:30px">
+                                <div class="dropdown">
+                                    <button type="button"
+                                        class="btn btn-light border-0 dropdown-toggle p-0 bg-transparent"
+                                        data-bs-toggle="dropdown">
+                                        <img src="../assets/images/flags/<?= $lang ?>.svg" alt="de">
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item <?= $lang == "de" ? "active": "" ?>" data-lang='de'
+                                            href="javascript:void(0);"><img src="../assets/images/flags/de.svg"
+                                                alt="de"> German</a>
+                                        <a class="dropdown-item <?= $lang == "en" ? "active": "" ?>" data-lang='en'
+                                            href="javascript:void(0);"><img src="../assets/images/flags/en.svg"
+                                                alt="en"> English</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../#about_us"><?= $ln["about_us"] ?></a>
                         </li>
@@ -142,7 +161,7 @@ let rPath = "<?php echo $basePath; ?>";
     <!-- Header End -->
 
     <section class="userDiv p-0 d-flex align-items-center justify-content-center"
-        style="margin-top: 14rem; height: 10rem;">
+        style="margin-top: 0rem; height: 10rem;">
         <h1 class="text-white m-0" style="text-align: center; line-height:0.75em;padding-top:0.4em;"><?= $title ?>
             <?php if($role == 3) { ?>
             <br><span style="font-size:0.7em"><?= $user['tName'] ?>

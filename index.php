@@ -1391,7 +1391,10 @@ $(function() {
     });
     $('a[href="index.php"]').parent().addClass("active");
     $('a[href="index.php"]').parent().siblings().removeClass("active");
-
+    if (window.location.href.indexOf("index.php") == -1) {
+        console.log("not");
+        window.location.href = "index.php";
+    }
 
     function checkReponse() {
         if (window.innerWidth > 600) {

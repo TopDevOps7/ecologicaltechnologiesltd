@@ -63,6 +63,10 @@ tbody tr td.padding-0 {
   margin: 0 20px 0 auto;
 }
 
+.backoffice .dropdown a>img {
+  width: 40%;
+}
+
 .video-container video {
   height: 100%;
   width: 100%;
@@ -8640,7 +8644,7 @@ section {
 }
 
 #navbarScroll {
-  width: 70%;
+  width: 100%;
 }
 
 .navbar.navbar-expand-lg.main-header>.container {

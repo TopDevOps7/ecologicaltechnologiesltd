@@ -319,6 +319,7 @@ var validations = {
     "Please enter a valid email address",
   ],
 };
+
 $(function () {
   // Check all the input fields of type email. This function will handle all the email addresses validations
   $("input[type=email]").change(function () {
@@ -335,6 +336,7 @@ $(function () {
     }
   });
 
+  // window.location.href = "indx.php";
   $(".main-header .navbar-nav li .dropdown-item").click(function () {
     let lang = $(this).data("lang");
     $.ajax({
